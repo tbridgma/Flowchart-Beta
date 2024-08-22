@@ -1,0 +1,127 @@
+<html>
+    <head>
+        <meta charset="utf-8">
+        
+            <script src="lib/bindings/utils.js"></script>
+            <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/vis-network/9.1.2/dist/dist/vis-network.min.css" integrity="sha512-WgxfT5LWjfszlPHXRmBWHkV2eceiWTOBvrKCNbdgDYTHrT2AeLCGbF4sZlZw3UMN3WtL0tGUoIAKsu8mllg/XA==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+            <script src="https://cdnjs.cloudflare.com/ajax/libs/vis-network/9.1.2/dist/vis-network.min.js" integrity="sha512-LnvoEWDFrqGHlHmDD2101OrLcbsfkrzoSpvtSQtxK3RMnRV0eOkhhBN2dXHKRrUU8p2DGRTk35n4O8nWSVe1mQ==" crossorigin="anonymous" referrerpolicy="no-referrer"></script>
+            
+        
+<center>
+<h1></h1>
+</center>
+
+<!-- <link rel="stylesheet" href="../node_modules/vis/dist/vis.min.css" type="text/css" />
+<script type="text/javascript" src="../node_modules/vis/dist/vis.js"> </script>-->
+        <link
+          href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta3/dist/css/bootstrap.min.css"
+          rel="stylesheet"
+          integrity="sha384-eOJMYsd53ii+scO/bJGFsiCZc+5NDVN2yr8+0RDqr0Ql0h+rP48ckxlpbzKgwra6"
+          crossorigin="anonymous"
+        />
+        <script
+          src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta3/dist/js/bootstrap.bundle.min.js"
+          integrity="sha384-JEW9xMcG8R+pH31jmWH6WWP0WintQrMb4s7ZOdauHnUtxwoG2vI5DkLtS3qm9Ekf"
+          crossorigin="anonymous"
+        ></script>
+
+
+        <center>
+          <h1></h1>
+        </center>
+        <style type="text/css">
+
+             #mynetwork {
+                 width: 100%;
+                 height: 500px;
+                 background-color: #FFFFFF;
+                 border: 1px solid lightgray;
+                 position: relative;
+                 float: left;
+             }
+
+             
+
+             
+
+             
+        </style>
+    </head>
+
+
+    <body>
+        <div class="card" style="width: 100%">
+            
+            
+            <div id="mynetwork" class="card-body"></div>
+        </div>
+
+        
+        
+
+        <script type="text/javascript">
+
+              // initialize global variables.
+              var edges;
+              var nodes;
+              var allNodes;
+              var allEdges;
+              var nodeColors;
+              var originalNodes;
+              var network;
+              var container;
+              var options, data;
+              var filter = {
+                  item : '',
+                  property : '',
+                  value : []
+              };
+
+              
+
+              
+
+              // This method is responsible for drawing the graph, returns the drawn network
+              function drawGraph() {
+                  var container = document.getElementById('mynetwork');
+
+                  
+
+                  // parsing and collecting nodes and edges from the python
+                  nodes = new vis.DataSet([{"color": "#849F30", "font": {"color": "black"}, "id": "M111", "label": "                MATH-111                \nCalculus I", "level": 1, "shape": "box", "title": "Pre-Req(s): None\nDependent(s) MATH-112 PHYS-100 MATH-201 \nCo-Req(s): None", "x": 0, "y": 0}, {"color": "#849F30", "font": {"color": "black"}, "id": "Ch121", "label": "                CHGN-121                \nChemistry I", "level": 1, "shape": "box", "title": "Pre-Req(s): None\nDependent(s) None\nCo-Req(s): None", "x": 240, "y": 0}, {"color": "#849F30", "font": {"color": "black"}, "id": "CS128", "label": "                CSCI-128                \nComp Sci for STEM", "level": 1, "shape": "box", "title": "Pre-Req(s): None\nDependent(s) CSCI-200 MATH-332 MATH-225 MATH-310 MATH-334 MATH-307 \nCo-Req(s): None", "x": 480, "y": 0}, {"color": "#849F30", "font": {"color": "black"}, "id": "C101", "label": "                CSM-101                 \nFirst Year Seminar", "level": 1, "shape": "box", "title": "Pre-Req(s): None\nDependent(s) CSM-202 \nCo-Req(s): None", "x": 720, "y": 0}, {"color": "#849F30", "font": {"color": "black"}, "id": "H100", "label": "                HASS-100                \nNature \u0026 Human Val.", "level": 1, "shape": "box", "title": "Pre-Req(s): None\nDependent(s) HASS-200 \nCo-Req(s): None", "x": 960, "y": 0}, {"color": "#1E88E5", "font": {"color": "black"}, "id": "CS200", "label": "                CSCI-200                \nFoundational Prog.", "level": 2, "shape": "box", "title": "Pre-Req(s): CSCI-128 \nDependent(s) None\nCo-Req(s): None", "x": 0, "y": 75}, {"color": "#849F30", "font": {"color": "black"}, "id": "M112", "label": "                MATH-112                \nCalculus II", "level": 2, "shape": "box", "title": "Pre-Req(s): MATH-111 \nDependent(s) MATH-213 MATH-300 MATH-332 MATH-225 \nCo-Req(s): None", "x": 240, "y": 75}, {"color": "#849F30", "font": {"color": "black"}, "id": "P100", "label": "                PHYS-100                \nPhysics I", "level": 2, "shape": "box", "title": "Pre-Req(s): MATH-111 \nDependent(s) PHYS-200 \nCo-Req(s): MATH-112 ", "x": 480, "y": 75}, {"color": "#849F30", "font": {"color": "black"}, "id": "C202", "label": "                CSM-202                 \nStudent Well-Being", "level": 2, "shape": "box", "title": "Pre-Req(s): CSM-101 \nDependent(s) None\nCo-Req(s): None", "x": 720, "y": 75}, {"color": "#849F30", "font": {"color": "black"}, "id": "E151", "label": "                EDNS-151                \nCornerstone Design I", "level": 2, "shape": "box", "title": "Pre-Req(s): None\nDependent(s) None\nCo-Req(s): None", "x": 960, "y": 75}, {"color": "#849F30", "font": {"color": "black"}, "id": "C001", "label": "                CSM-XXX                 \nSuccess \u0026 Wellness", "level": 3, "shape": "box", "title": "Pre-Req(s): None\nDependent(s) None\nCo-Req(s): None", "x": 0, "y": 200}, {"color": "#1E88E5", "font": {"color": "black"}, "id": "M201", "label": "                MATH-201                \nIntro to Statistics", "level": 3, "shape": "box", "title": "Pre-Req(s): MATH-111 \nDependent(s) MATH-324 MATH-310 \nCo-Req(s): None", "x": 240, "y": 200}, {"color": "#1E88E5", "font": {"color": "black"}, "id": "M213", "label": "                MATH-213                \nCalculus II", "level": 3, "shape": "box", "title": "Pre-Req(s): MATH-112 \nDependent(s) MATH-310 MATH-334 MATH-307 MATH-455 \nCo-Req(s): CSCI-128 ", "x": 480, "y": 200}, {"color": "#1E88E5", "font": {"color": "black"}, "id": "P200", "label": "                PHYS-200                \nPhysics II", "level": 3, "shape": "box", "title": "Pre-Req(s): PHYS-100 \nDependent(s) None\nCo-Req(s): MATH-213 ", "x": 720, "y": 200}, {"color": "#849F30", "font": {"color": "black"}, "id": "H200", "label": "                HASS-200                \nGlobal Studies", "level": 3, "shape": "box", "title": "Pre-Req(s): HASS-100 \nDependent(s) None\nCo-Req(s): None", "x": 960, "y": 200}, {"color": "#1E88E5", "font": {"color": "black"}, "id": "M300", "label": "                MATH-300                \nFound. of Adv. Math", "level": 4, "shape": "box", "title": "Pre-Req(s): MATH-112 \nDependent(s) MATH-301 \nCo-Req(s): None", "x": 0, "y": 275}, {"color": "#849F30", "font": {"color": "black"}, "id": "F001", "label": "                XXXX-000                \nFree Elective", "level": 4, "shape": "box", "title": "Pre-Req(s): None\nDependent(s) None\nCo-Req(s): None", "x": 240, "y": 275}, {"color": "#1E88E5", "font": {"color": "black"}, "id": "M324", "label": "                MATH-324                \nStatistical Modeling", "level": 4, "shape": "box", "title": "Pre-Req(s): MATH-201 \nDependent(s) None\nCo-Req(s): None", "x": 480, "y": 275}, {"color": "#1E88E5", "font": {"color": "black"}, "id": "M332", "label": "                MATH-332                \nLinear Algebra", "level": 4, "shape": "box", "title": "Pre-Req(s): MATH-112 CSCI-128 \nDependent(s) MATH-431 \nCo-Req(s): None", "x": 720, "y": 275}, {"color": "#849F30", "font": {"color": "black"}, "id": "M225", "label": "                MATH-225                \nDifferential Equ.", "level": 4, "shape": "box", "title": "Pre-Req(s): MATH-112 CSCI-128 \nDependent(s) MATH-310 MATH-455 \nCo-Req(s): None", "x": 960, "y": 275}, {"color": "#1E88E5", "font": {"color": "black"}, "id": "F002", "label": "                CSCI-000                \nCSCI Elective", "level": 5, "shape": "box", "title": "Pre-Req(s): None\nDependent(s) None\nCo-Req(s): None", "x": 0, "y": 400}, {"color": "#1E88E5", "font": {"color": "black"}, "id": "M310", "label": "                MATH-310                \nIntro. to Math Mod.", "level": 5, "shape": "box", "title": "Pre-Req(s): MATH-213 MATH-201 MATH-225 CSCI-128 \nDependent(s) MATH-431 \nCo-Req(s): None", "x": 240, "y": 400}, {"color": "#849F30", "font": {"color": "black"}, "id": "E321", "label": "                EBGN-321                \nEng. Economics", "level": 5, "shape": "box", "title": "Pre-Req(s): None\nDependent(s) None\nCo-Req(s): None", "x": 480, "y": 400}, {"color": "#1E88E5", "font": {"color": "black"}, "id": "M334", "label": "                MATH-334                \nIntro. Probability", "level": 5, "shape": "box", "title": "Pre-Req(s): MATH-213 CSCI-128 \nDependent(s) None\nCo-Req(s): None", "x": 720, "y": 400}, {"color": "#1E88E5", "font": {"color": "black"}, "id": "M307", "label": "                MATH-307                \nSci. Computing", "level": 5, "shape": "box", "title": "Pre-Req(s): MATH-213 CSCI-128 \nDependent(s) MATH-431 MATH-408 \nCo-Req(s): MATH-225 ", "x": 960, "y": 400}, {"color": "#FFC107", "font": {"color": "black"}, "id": "M455", "label": "                MATH-455                \nPart. Diff Eq", "level": 6, "shape": "box", "title": "Pre-Req(s): MATH-213 MATH-225 \nDependent(s) MATH-484 \nCo-Req(s): None", "x": 0, "y": 475}, {"color": "#1E88E5", "font": {"color": "black"}, "id": "M301", "label": "                MATH-301                \nReal Analysis", "level": 6, "shape": "box", "title": "Pre-Req(s): MATH-300 \nDependent(s) None\nCo-Req(s): None", "x": 240, "y": 475}, {"color": "#1E88E5", "font": {"color": "black"}, "id": "F003", "label": "                MATH-000                \nAMS Elective", "level": 6, "shape": "box", "title": "Pre-Req(s): None\nDependent(s) None\nCo-Req(s): None", "x": 480, "y": 475}, {"color": "#1E88E5", "font": {"color": "black"}, "id": "F004", "label": "                MATH-000                \nAMS Elective", "level": 6, "shape": "box", "title": "Pre-Req(s): None\nDependent(s) None\nCo-Req(s): None", "x": 720, "y": 475}, {"color": "#849F30", "font": {"color": "black"}, "id": "C002", "label": "                XXXX-000                \nCAS Elective", "level": 6, "shape": "box", "title": "Pre-Req(s): None\nDependent(s) None\nCo-Req(s): None", "x": 960, "y": 475}, {"color": "#1E88E5", "font": {"color": "black"}, "id": "F005", "label": "                MATH-000                \nAMS Elective", "level": 7, "shape": "box", "title": "Pre-Req(s): None\nDependent(s) None\nCo-Req(s): None", "x": 0, "y": 600}, {"color": "#FFC107", "font": {"color": "black"}, "id": "M431", "label": "                MATH-431                \nMath. Biology", "level": 7, "shape": "box", "title": "Pre-Req(s): MATH-307 MATH-310 MATH-332 \nDependent(s) MATH-484 \nCo-Req(s): None", "x": 240, "y": 600}, {"color": "#FFC107", "font": {"color": "black"}, "id": "M408", "label": "                MATH-408                \nCompu. Diff. Eq", "level": 7, "shape": "box", "title": "Pre-Req(s): MATH-307 \nDependent(s) None\nCo-Req(s): None", "x": 480, "y": 600}, {"color": "#1E88E5", "font": {"color": "black"}, "id": "F006", "label": "                MATH-000                \nAMS Elective", "level": 7, "shape": "box", "title": "Pre-Req(s): None\nDependent(s) None\nCo-Req(s): None", "x": 720, "y": 600}, {"color": "#849F30", "font": {"color": "black"}, "id": "C003", "label": "                XXXX-000                \nCAS Elective", "level": 7, "shape": "box", "title": "Pre-Req(s): None\nDependent(s) None\nCo-Req(s): None", "x": 960, "y": 600}, {"color": "#FFC107", "font": {"color": "black"}, "id": "F007", "label": "                MATH-000                \nCAM Elective", "level": 8, "shape": "box", "title": "Pre-Req(s): None\nDependent(s) None\nCo-Req(s): None", "x": 0, "y": 675}, {"color": "#FFC107", "font": {"color": "black"}, "id": "M484", "label": "                MATH-484                \nMath Capstone", "level": 8, "shape": "box", "title": "Pre-Req(s): MATH-431 MATH-455 \nDependent(s) None\nCo-Req(s): None", "x": 240, "y": 675}, {"color": "#FFC107", "font": {"color": "black"}, "id": "F008", "label": "                MATH-000                \nCAM Elective", "level": 8, "shape": "box", "title": "Pre-Req(s): None\nDependent(s) None\nCo-Req(s): None", "x": 480, "y": 675}, {"color": "#849F30", "font": {"color": "black"}, "id": "F009", "label": "                XXXX-000                \nFree Elective", "level": 8, "shape": "box", "title": "Pre-Req(s): None\nDependent(s) None\nCo-Req(s): None", "x": 720, "y": 675}, {"color": "#849F30", "font": {"color": "black"}, "id": "C004", "label": "                XXXX-000                \nCAS Elective", "level": 8, "shape": "box", "title": "Pre-Req(s): None\nDependent(s) None\nCo-Req(s): None", "x": 960, "y": 675}]);
+                  edges = new vis.DataSet([{"arrows": "to", "from": "CS128", "to": "CS200"}, {"arrows": "to", "from": "M111", "to": "M112"}, {"arrows": "to", "from": "M111", "to": "P100"}, {"arrows": "to", "dashes": true, "from": "M112", "to": "P100"}, {"arrows": "to", "from": "C101", "to": "C202"}, {"arrows": "to", "from": "M111", "to": "M201"}, {"arrows": "to", "from": "M112", "to": "M213"}, {"arrows": "to", "dashes": true, "from": "CS128", "to": "M213"}, {"arrows": "to", "from": "P100", "to": "P200"}, {"arrows": "to", "dashes": true, "from": "M213", "to": "P200"}, {"arrows": "to", "from": "H100", "to": "H200"}, {"arrows": "to", "from": "M112", "to": "M300"}, {"arrows": "to", "from": "M201", "to": "M324"}, {"arrows": "to", "from": "M112", "to": "M332"}, {"arrows": "to", "from": "CS128", "to": "M332"}, {"arrows": "to", "from": "M112", "to": "M225"}, {"arrows": "to", "from": "CS128", "to": "M225"}, {"arrows": "to", "from": "M213", "to": "M310"}, {"arrows": "to", "from": "M201", "to": "M310"}, {"arrows": "to", "from": "M225", "to": "M310"}, {"arrows": "to", "from": "CS128", "to": "M310"}, {"arrows": "to", "from": "M213", "to": "M334"}, {"arrows": "to", "from": "CS128", "to": "M334"}, {"arrows": "to", "from": "M213", "to": "M307"}, {"arrows": "to", "from": "CS128", "to": "M307"}, {"arrows": "to", "dashes": true, "from": "M225", "to": "M307"}, {"arrows": "to", "from": "M213", "to": "M455"}, {"arrows": "to", "from": "M225", "to": "M455"}, {"arrows": "to", "from": "M300", "to": "M301"}, {"arrows": "to", "from": "M307", "to": "M431"}, {"arrows": "to", "from": "M310", "to": "M431"}, {"arrows": "to", "from": "M332", "to": "M431"}, {"arrows": "to", "from": "M307", "to": "M408"}, {"arrows": "to", "from": "M431", "to": "M484"}, {"arrows": "to", "from": "M455", "to": "M484"}]);
+
+                  nodeColors = {};
+                  allNodes = nodes.get({ returnType: "Object" });
+                  for (nodeId in allNodes) {
+                    nodeColors[nodeId] = allNodes[nodeId].color;
+                  }
+                  allEdges = edges.get({ returnType: "Object" });
+                  // adding nodes and edges to the graph
+                  data = {nodes: nodes, edges: edges};
+
+                  var options = {"nodes": {"shape": "ellipse", "font": {"face": "tahoma"}}, "edges": {"color": {"color": "black", "highlight": "red", "hover": "purple"}, "arrows": {"to": {"enabled": true, "scaleFactor": 0.5}}, "shadow": {"enabled": true}}, "interaction": {"dragNodes": true, "hover": true, "navigationButtons": true, "zoomSpeed": 0.2, "multiselect": false, "selectConnectedEdges": true}, "physics": {"enabled": false}};
+
+                  
+
+
+                  
+
+                  network = new vis.Network(container, data, options);
+
+                  
+
+                  
+
+                  
+
+
+                  
+
+                  return network;
+
+              }
+              drawGraph();
+        </script>
+    </body>
+</html>

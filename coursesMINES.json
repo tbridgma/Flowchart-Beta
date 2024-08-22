@@ -1,0 +1,1542 @@
+[
+    {
+        "courseCode": "MATH100",
+        "courseTitle": "INTRODUCTORY TOPICS FOR CALCULUS",
+        "courseCredits": "3.0",
+        "courseTerms": "S",
+        "coursePrereqs": [],
+        "courseCoreqs": []
+    },
+    {
+        "courseCode": "MATH111",
+        "courseTitle": "CALCULUS FOR SCIENTISTS AND ENGINEERS I",
+        "courseCredits": "4.0",
+        "courseTerms": "I, II, S",
+        "coursePrereqs": [],
+        "courseCoreqs": []
+    },
+    {
+        "courseCode": "MATH112",
+        "courseTitle": "CALCULUS FOR SCIENTISTS AND ENGINEERS II",
+        "courseCredits": "4.0",
+        "courseTerms": "I, II",
+        "coursePrereqs": [ "MATH111" ],
+        "courseCoreqs": []
+    },
+    {
+        "courseCode": "MATH113",
+        "courseTitle": "CALCULUS FOR SCIENTISTS AND ENGINEERS II - SHORT FORM",
+        "courseCredits": "1.0",
+        "courseTerms": "I, II",
+        "coursePrereqs": [],
+        "courseCoreqs": []
+    },
+    {
+        "courseCode": "MATH198",
+        "courseTitle": "SPECIAL TOPICS",
+        "courseCredits": "1.0",
+        "courseTerms": "I, II",
+        "coursePrereqs": [],
+        "courseCoreqs": []
+    },
+    {
+        "courseCode": "MATH199",
+        "courseTitle": "INDEPENDENT STUDY",
+        "courseCredits": "1.0",
+        "courseTerms": "I, II",
+        "coursePrereqs": [],
+        "courseCoreqs": []
+    },
+    {
+        "courseCode": "MATH201",
+        "courseTitle": "INTRODUCTION TO STATISTICS",
+        "courseCredits": "3.0",
+        "courseTerms": "I, II",
+        "coursePrereqs": [ "MATH111" ],
+        "courseCoreqs": []
+    },
+    {
+        "courseCode": "MATH213",
+        "courseTitle": "CALCULUS FOR SCIENTISTS AND ENGINEERS III",
+        "courseCredits": "4.0",
+        "courseTerms": "I, II",
+        "coursePrereqs": [ "MATH112" ],
+        "courseCoreqs": [ "MATH113" ]
+    },
+    {
+        "courseCode": "MATH225",
+        "courseTitle": "DIFFERENTIAL EQUATIONS",
+        "courseCredits": "3.0",
+        "courseTerms": "I, II",
+        "coursePrereqs": [ "MATH112" ],
+        "courseCoreqs": []
+    },
+    {
+        "courseCode": "MATH298",
+        "courseTitle": "SPECIAL TOPICS",
+        "courseCredits": "1.0",
+        "courseTerms": "I, II",
+        "coursePrereqs": [],
+        "courseCoreqs": []
+    },
+    {
+        "courseCode": "MATH299",
+        "courseTitle": "INDEPENDENT STUDY",
+        "courseCredits": "1.0",
+        "courseTerms": "I, II",
+        "coursePrereqs": [],
+        "courseCoreqs": []
+    },
+    {
+        "courseCode": "MATH300",
+        "courseTitle": "FOUNDATIONS OF ADVANCED MATHEMATICS",
+        "courseCredits": "3.0",
+        "courseTerms": "I,II",
+        "coursePrereqs": [ "MATH112" ],
+        "courseCoreqs": []
+    },
+    {
+        "courseCode": "MATH301",
+        "courseTitle": "INTRODUCTION TO ANALYSIS",
+        "courseCredits": "3.0",
+        "courseTerms": "I, II",
+        "coursePrereqs": [ "MATH300" ],
+        "courseCoreqs": []
+    },
+    {
+        "courseCode": "MATH307",
+        "courseTitle": "INTRODUCTION TO SCIENTIFIC COMPUTING",
+        "courseCredits": "3.0",
+        "courseTerms": "I, II",
+        "coursePrereqs": [ "MATH213", "CSCI128"],
+        "courseCoreqs": [ "MATH225" ]
+    },
+    {
+        "courseCode": "MATH310",
+        "courseTitle": "INTRODUCTION TO MATHEMATICAL MODELING",
+        "courseCredits": "3.0",
+        "courseTerms": "I, II",
+        "coursePrereqs": [ "MATH201", "MATH213", "MATH225" ],
+        "courseCoreqs": []
+    },
+    {
+        "courseCode": "MATH324",
+        "courseTitle": "STATISTICAL MODELING",
+        "courseCredits": "3.0",
+        "courseTerms": "I, II",
+        "coursePrereqs": [ "MATH201" ],
+        "courseCoreqs": []
+    },
+    {
+        "courseCode": "MATH332",
+        "courseTitle": "LINEAR ALGEBRA",
+        "courseCredits": "3.0",
+        "courseTerms": "I, II",
+        "coursePrereqs": [ "MATH112", "PHGN100"],
+        "courseCoreqs": []
+    },
+    {
+        "courseCode": "MATH334",
+        "courseTitle": "INTRODUCTION TO PROBABILITY",
+        "courseCredits": "3.0",
+        "courseTerms": "I, II",
+        "coursePrereqs": [ "MATH213" ],
+        "courseCoreqs": []
+    },
+    {
+        "courseCode": "MATH335",
+        "courseTitle": "INTRODUCTION TO MATHEMATICAL STATISTICS",
+        "courseCredits": "3.0",
+        "courseTerms": "I,II",
+        "coursePrereqs": [ "MATH334" ],
+        "courseCoreqs": []
+    },
+    {
+        "courseCode": "MATH340",
+        "courseTitle": "COOPERATIVE EDUCATION",
+        "courseCredits": "3.0",
+        "courseTerms": "I, II",
+        "coursePrereqs": [],
+        "courseCoreqs": []
+    },
+    {
+        "courseCode": "MATH348",
+        "courseTitle": "ADVANCED ENGINEERING MATHEMATICS",
+        "courseCredits": "3.0",
+        "courseTerms": "",
+        "coursePrereqs": [ "MATH213", "MATH225" ],
+        "courseCoreqs": []
+    },
+    {
+        "courseCode": "MATH398",
+        "courseTitle": "SPECIAL TOPICS",
+        "courseCredits": "6.0",
+        "courseTerms": "I, II",
+        "coursePrereqs": [],
+        "courseCoreqs": []
+    },
+    {
+        "courseCode": "MATH399",
+        "courseTitle": "INDEPENDENT STUDY",
+        "courseCredits": "6.0",
+        "courseTerms": "I, II",
+        "coursePrereqs": [],
+        "courseCoreqs": []
+    },
+    {
+        "courseCode": "MATH408",
+        "courseTitle": "COMPUTATIONAL METHODS FOR DIFFERENTIAL EQUATIONS",
+        "courseCredits": "3.0",
+        "courseTerms": "I",
+        "coursePrereqs": [ "MATH307" ],
+        "courseCoreqs": []
+    },
+    {
+        "courseCode": "MATH431",
+        "courseTitle": "MATHEMATICAL BIOLOGY",
+        "courseCredits": "3.0",
+        "courseTerms": "I",
+        "coursePrereqs": [ "MATH307", "MATH310", "MATH332" ],
+        "courseCoreqs": []
+    },
+    {
+        "courseCode": "MATH432",
+        "courseTitle": "SPATIAL STATISTICS",
+        "courseCredits": "3.0",
+        "courseTerms": "I,II",
+        "coursePrereqs": [ "MATH324", "MATH332", "MATH335" ],
+        "courseCoreqs": []
+    },
+    {
+        "courseCode": "MATH436",
+        "courseTitle": "ADVANCED STATISTICAL MODELING",
+        "courseCredits": "3.0",
+        "courseTerms": "II",
+        "coursePrereqs": [ "MATH332", "MATH335", "MATH324" ],
+        "courseCoreqs": []
+    },
+    {
+        "courseCode": "MATH437",
+        "courseTitle": "MULTIVARIATE ANALYSIS",
+        "courseCredits": "3.0",
+        "courseTerms": "I",
+        "coursePrereqs": [ "MATH324", "MATH335", "MATH332" ],
+        "courseCoreqs": []
+    },
+    {
+        "courseCode": "MATH438",
+        "courseTitle": "STOCHASTIC MODELS",
+        "courseCredits": "3.0",
+        "courseTerms": "II",
+        "coursePrereqs": [ "MATH332", "MATH334" ],
+        "courseCoreqs": []
+    },
+    {
+        "courseCode": "MATH439",
+        "courseTitle": "SURVIVAL ANALYSIS",
+        "courseCredits": "3.0",
+        "courseTerms": "",
+        "coursePrereqs": [ "MATH335" ],
+        "courseCoreqs": []
+    },
+    {
+        "courseCode": "MATH440",
+        "courseTitle": "PARALLEL SCIENTIFIC COMPUTING",
+        "courseCredits": "3.0",
+        "courseTerms": "",
+        "coursePrereqs": [ "MATH307", "CSCI200" ],
+        "courseCoreqs": []
+    },
+    {
+        "courseCode": "MATH454",
+        "courseTitle": "COMPLEX ANALYSIS",
+        "courseCredits": "3.0",
+        "courseTerms": "II",
+        "coursePrereqs": [ "MATH213", "MATH225" ],
+        "courseCoreqs": []
+    },
+    {
+        "courseCode": "MATH455",
+        "courseTitle": "PARTIAL DIFFERENTIAL EQUATIONS",
+        "courseCredits": "3.0",
+        "courseTerms": "I, II",
+        "coursePrereqs": [ "MATH213", "MATH225" ],
+        "courseCoreqs": []
+    },
+    {
+        "courseCode": "MATH457",
+        "courseTitle": "INTEGRAL EQUATIONS",
+        "courseCredits": "3.0",
+        "courseTerms": "I",
+        "coursePrereqs": [ "MATH332", "MATH455" ],
+        "courseCoreqs": []
+    },
+    {
+        "courseCode": "MATH458",
+        "courseTitle": "ABSTRACT ALGEBRA",
+        "courseCredits": "3.0",
+        "courseTerms": "I",
+        "coursePrereqs": [ "MATH300" ],
+        "courseCoreqs": []
+    },
+    {
+        "courseCode": "MATH459",
+        "courseTitle": "ASYMPTOTICS",
+        "courseCredits": "3.0",
+        "courseTerms": "I",
+        "coursePrereqs": [ "MATH213", "MATH225" ],
+        "courseCoreqs": []
+    },
+    {
+        "courseCode": "MATH470",
+        "courseTitle": "MATHEMATICAL MODELING OF SPATIAL PROCESSES IN BIOLOGY",
+        "courseCredits": "3.0",
+        "courseTerms": "II",
+        "coursePrereqs": [ "MATH431", "MATH455" ],
+        "courseCoreqs": []
+    },
+    {
+        "courseCode": "MATH472",
+        "courseTitle": "MATHEMATICAL AND COMPUTATIONAL NEUROSCIENCE",
+        "courseCredits": "3.0",
+        "courseTerms": "II",
+        "coursePrereqs": [ "MATH431" ],
+        "courseCoreqs": []
+    },
+    {
+        "courseCode": "MATH482",
+        "courseTitle": "STATISTICS PRACTICUM (CAPSTONE)",
+        "courseCredits": "4.0",
+        "courseTerms": "II",
+        "coursePrereqs": [ "MATH335", "MATH324", "MATH436" ],
+        "courseCoreqs": []
+    },
+    {
+        "courseCode": "MATH484",
+        "courseTitle": "MATHEMATICAL AND COMPUTATIONAL MODELING (CAPSTONE)",
+        "courseCredits": "4.0",
+        "courseTerms": "II",
+        "coursePrereqs": [ "MATH431", "MATH307", "MATH455" ],
+        "courseCoreqs": []
+    },
+    {
+        "courseCode": "CSCI101",
+        "courseTitle": "INTRODUCTION TO COMPUTER SCIENCE",
+        "courseCredits": "3.0",
+        "courseTerms": "",
+        "coursePrereqs": [],
+        "courseCoreqs": []
+    },
+    {
+        "courseCode": "CSCI102",
+        "courseTitle": "INTRODUCTION TO COMPUTER SCIENCE - LAB",
+        "courseCredits": "1.0",
+        "courseTerms": "",
+        "coursePrereqs": [],
+        "courseCoreqs": []
+    },
+    {
+        "courseCode": "CSCI128",
+        "courseTitle": "COMPUTER SCIENCE FOR STEM",
+        "courseCredits": "3.0",
+        "courseTerms": "",
+        "coursePrereqs": [],
+        "courseCoreqs": []
+    },
+    {
+        "courseCode": "CSCI195",
+        "courseTitle": "CS@MINES BRIDGE SEMINAR COURSE",
+        "courseCredits": "1.0",
+        "courseTerms": "",
+        "coursePrereqs": [],
+        "courseCoreqs": []
+    },
+    {
+        "courseCode": "CSCI198",
+        "courseTitle": "SPECIAL TOPICS",
+        "courseCredits": "1.0",
+        "courseTerms": "",
+        "coursePrereqs": [],
+        "courseCoreqs": []
+    },
+    {
+        "courseCode": "CSCI199",
+        "courseTitle": "INDEPENDENT STUDY",
+        "courseCredits": "1.0",
+        "courseTerms": "",
+        "coursePrereqs": [],
+        "courseCoreqs": []
+    },
+    {
+        "courseCode": "CSCI200",
+        "courseTitle": "FOUNDATIONAL PROGRAMMING CONCEPTS & DESIGN",
+        "courseCredits": "3.0",
+        "courseTerms": "",
+        "coursePrereqs": [ "CSCI101", "CSCI128" ],
+        "courseCoreqs": []
+    },
+    {
+        "courseCode": "CSCI210",
+        "courseTitle": "SYSTEMS PROGRAMMING",
+        "courseCredits": "3.0",
+        "courseTerms": "",
+        "coursePrereqs": [ "CSCI200" ],
+        "courseCoreqs": []
+    },
+    {
+        "courseCode": "CSCI220",
+        "courseTitle": "DATA STRUCTURES AND ALGORITHMS",
+        "courseCredits": "3.0",
+        "courseTerms": "",
+        "coursePrereqs": [ "CSCI200" ],
+        "courseCoreqs": []
+    },
+    {
+        "courseCode": "CSCI250",
+        "courseTitle": "PYTHON-BASED COMPUTING: BUILDING A SENSOR SYSTEM",
+        "courseCredits": "3.0",
+        "courseTerms": "",
+        "coursePrereqs": [ "CSCI128" ],
+        "courseCoreqs": [ "MATH213", "PHGN200" ]
+    },
+    {
+        "courseCode": "CSCI260",
+        "courseTitle": "FORTRAN PROGRAMMING",
+        "courseCredits": "2.0",
+        "courseTerms": "I",
+        "coursePrereqs": [],
+        "courseCoreqs": []
+    },
+    {
+        "courseCode": "CSCI261",
+        "courseTitle": "PROGRAMMING CONCEPTS",
+        "courseCredits": "3.0",
+        "courseTerms": "",
+        "coursePrereqs": [ "CSCI101" ],
+        "courseCoreqs": []
+    },
+    {
+        "courseCode": "CSCI262",
+        "courseTitle": "DATA STRUCTURES",
+        "courseCredits": "3.0",
+        "courseTerms": "I, II",
+        "coursePrereqs": [ "CSCI261" ],
+        "courseCoreqs": []
+    },
+    {
+        "courseCode": "CSCI274",
+        "courseTitle": "INTRODUCTION TO THE LINUX OPERATING SYSTEM",
+        "courseCredits": "1.0",
+        "courseTerms": "I, II",
+        "coursePrereqs": [ "CSCI200" ],
+        "courseCoreqs": []
+    },
+    {
+        "courseCode": "CSCI290",
+        "courseTitle": "PROGRAMMING CHALLENGES",
+        "courseCredits": "1.0",
+        "courseTerms": "",
+        "coursePrereqs": [],
+        "courseCoreqs": [ "CSCI220" ]
+    },
+    {
+        "courseCode": "CSCI295",
+        "courseTitle": "INDUSTRY EXPLORATION",
+        "courseCredits": "1.0",
+        "courseTerms": "",
+        "coursePrereqs": [],
+        "courseCoreqs": []
+    },
+    {
+        "courseCode": "CSCI298",
+        "courseTitle": "SPECIAL TOPICS",
+        "courseCredits": "1.0",
+        "courseTerms": "",
+        "coursePrereqs": [],
+        "courseCoreqs": []
+    },
+    {
+        "courseCode": "CSCI299",
+        "courseTitle": "INDEPENDENT STUDY",
+        "courseCredits": "1.0",
+        "courseTerms": "",
+        "coursePrereqs": [],
+        "courseCoreqs": []
+    },
+    {
+        "courseCode": "CSCI303",
+        "courseTitle": "INTRODUCTION TO DATA SCIENCE",
+        "courseCredits": "3.0",
+        "courseTerms": "non-synthetic",
+        "coursePrereqs": [ "CSCI101", "CSCI128" ],
+        "courseCoreqs": []
+    },
+    {
+        "courseCode": "CSCI306",
+        "courseTitle": "SOFTWARE ENGINEERING",
+        "courseCredits": "3.0",
+        "courseTerms": "I, II",
+        "coursePrereqs": [ "CSCI220" ],
+        "courseCoreqs": []
+    },
+    {
+        "courseCode": "CSCI340",
+        "courseTitle": "COOPERATIVE EDUCATION",
+        "courseCredits": "3.0",
+        "courseTerms": "I, II",
+        "coursePrereqs": [],
+        "courseCoreqs": []
+    },
+    {
+        "courseCode": "CSCI341",
+        "courseTitle": "COMPUTER ORGANIZATION",
+        "courseCredits": "3.0",
+        "courseTerms": "I, II",
+        "coursePrereqs": [ "CSCI200" ],
+        "courseCoreqs": []
+    },
+    {
+        "courseCode": "CSCI358",
+        "courseTitle": "DISCRETE MATHEMATICS",
+        "courseCredits": "3.0",
+        "courseTerms": "I, II",
+        "coursePrereqs": [ "MATH112" ],
+        "courseCoreqs": []
+    },
+    {
+        "courseCode": "CSCI370",
+        "courseTitle": "ADVANCED SOFTWARE ENGINEERING",
+        "courseCredits": "5.0",
+        "courseTerms": "",
+        "coursePrereqs": [ "CSCI306" ],
+        "courseCoreqs": []
+    },
+    {
+        "courseCode": "CSCI390",
+        "courseTitle": "PROGRAMMING CHALLENGES II",
+        "courseCredits": "1.0",
+        "courseTerms": "",
+        "coursePrereqs": [ "CSCI290" ],
+        "courseCoreqs": [ "CSCI358" ]
+    },
+    {
+        "courseCode": "CSCI395",
+        "courseTitle": "INDUSTRY EXPLORATION II",
+        "courseCredits": "1.0",
+        "courseTerms": "",
+        "coursePrereqs": [],
+        "courseCoreqs": []
+    },
+    {
+        "courseCode": "CSCI398",
+        "courseTitle": "SPECIAL TOPICS",
+        "courseCredits": "1.0",
+        "courseTerms": "I, II",
+        "coursePrereqs": [],
+        "courseCoreqs": []
+    },
+    {
+        "courseCode": "CSCI399",
+        "courseTitle": "INDEPENDENT STUDY",
+        "courseCredits": "1.0",
+        "courseTerms": "I, II",
+        "coursePrereqs": [],
+        "courseCoreqs": []
+    },
+    {
+        "courseCode": "CSCI400",
+        "courseTitle": "PRINCIPLES OF PROGRAMMING LANGUAGES",
+        "courseCredits": "3.0",
+        "courseTerms": "",
+        "coursePrereqs": [ "CSCI306", "CSCI358" ],
+        "courseCoreqs": []
+    },
+    {
+        "courseCode": "CSCI403",
+        "courseTitle": "DATA BASE MANAGEMENT",
+        "courseCredits": "3.0",
+        "courseTerms": "I, II",
+        "coursePrereqs": [ "CSCI200" ],
+        "courseCoreqs": []
+    },
+    {
+        "courseCode": "CSCI404",
+        "courseTitle": "ARTIFICIAL INTELLIGENCE",
+        "courseCredits": "3.0",
+        "courseTerms": "",
+        "coursePrereqs": [ "CSCI220", "MATH201", "MATH334" ],
+        "courseCoreqs": []
+    },
+    {
+        "courseCode": "CSCI406",
+        "courseTitle": "ALGORITHMS",
+        "courseCredits": "3.0",
+        "courseTerms": "I, II",
+        "coursePrereqs": [ "CSCI200", "CSCI358", "MATH213" ],
+        "courseCoreqs": []
+    },
+    {
+        "courseCode": "CSCI410",
+        "courseTitle": "ELEMENTS OF COMPUTING SYSTEMS",
+        "courseCredits": "3.0",
+        "courseTerms": "I, II",
+        "coursePrereqs": [ "CSCI341" ],
+        "courseCoreqs": []
+    },
+    {
+        "courseCode": "CSCI422",
+        "courseTitle": "USER INTERFACES",
+        "courseCredits": "3.0",
+        "courseTerms": "I",
+        "coursePrereqs": [ "CSCI262" ],
+        "courseCoreqs": []
+    },
+    {
+        "courseCode": "CSCI423",
+        "courseTitle": "COMPUTER SIMULATION",
+        "courseCredits": "3.0",
+        "courseTerms": "",
+        "coursePrereqs": [ "CSCI210", "CSCI306", "MATH201"],
+        "courseCoreqs": []
+    },
+    {
+        "courseCode": "CSCI425",
+        "courseTitle": "COMPILER DESIGN",
+        "courseCredits": "3.0",
+        "courseTerms": "",
+        "coursePrereqs": [ "CSCI274", "CSCI306", "CSCI341" ],
+        "courseCoreqs": []
+    },
+    {
+        "courseCode": "CSCI432",
+        "courseTitle": "ROBOT ETHICS",
+        "courseCredits": "3.0",
+        "courseTerms": "II",
+        "coursePrereqs": [ "CSCI220", "MATH201" ],
+        "courseCoreqs": []
+    },
+    {
+        "courseCode": "CSCI436",
+        "courseTitle": "HUMAN-ROBOT INTERACTION",
+        "courseCredits": "3.0",
+        "courseTerms": "",
+        "coursePrereqs": [ "CSCI200", "MATH201" ],
+        "courseCoreqs": []
+    },
+    {
+        "courseCode": "CSCI437",
+        "courseTitle": "INTRODUCTION TO COMPUTER VISION",
+        "courseCredits": "3.0",
+        "courseTerms": "I",
+        "coursePrereqs": [ "MATH201", "MATH332", "CSCI200" ],
+        "courseCoreqs": []
+    },
+    {
+        "courseCode": "CSCI440",
+        "courseTitle": "PARALLEL COMPUTING FOR SCIENTISTS AND ENGINEERS",
+        "courseCredits": "3.0",
+        "courseTerms": "II",
+        "coursePrereqs": [ "CSCI220", "CSCI341" ],
+        "courseCoreqs": []
+    },
+    {
+        "courseCode": "CSCI441",
+        "courseTitle": "COMPUTER GRAPHICS",
+        "courseCredits": "3.0",
+        "courseTerms": "I",
+        "coursePrereqs": [ "MATH332", "CSCI220" ],
+        "courseCoreqs": []
+    },
+    {
+        "courseCode": "CSCI442",
+        "courseTitle": "OPERATING SYSTEMS",
+        "courseCredits": "3.0",
+        "courseTerms": "I, II",
+        "coursePrereqs": [ "CSCI220", "CSCI274", "CSCI341" ],
+        "courseCoreqs": []
+    },
+    {
+        "courseCode": "CSCI443",
+        "courseTitle": "ADVANCED PROGRAMMING CONCEPTS USING JAVA",
+        "courseCredits": "3.0",
+        "courseTerms": "I, II",
+        "coursePrereqs": [ "CSCI306" ],
+        "courseCoreqs": []
+    },
+    {
+        "courseCode": "CSCI444",
+        "courseTitle": "ADVANCED COMPUTER GRAPHICS",
+        "courseCredits": "3.0",
+        "courseTerms": "II",
+        "coursePrereqs": [ "CSCI441" ],
+        "courseCoreqs": []
+    },
+    {
+        "courseCode": "CSCI445",
+        "courseTitle": "WEB PROGRAMMING",
+        "courseCredits": "3.0",
+        "courseTerms": "",
+        "coursePrereqs": [ "CSCI306" ],
+        "courseCoreqs": [ "CSCI403" ]
+    },
+    {
+        "courseCode": "CSCI446",
+        "courseTitle": "WEB APPLICATIONS",
+        "courseCredits": "3.0",
+        "courseTerms": "II",
+        "coursePrereqs": [ "CSCI220" ],
+        "courseCoreqs": [ "CSCI403" ]
+    },
+    {
+        "courseCode": "CSCI448",
+        "courseTitle": "MOBILE APPLICATION DEVELOPMENT",
+        "courseCredits": "3.0",
+        "courseTerms": "II",
+        "coursePrereqs": [ "CSCI306" ],
+        "courseCoreqs": []
+    },
+    {
+        "courseCode": "CSCI455",
+        "courseTitle": "GAME THEORY AND NETWORKS",
+        "courseCredits": "3.0",
+        "courseTerms": "I",
+        "coursePrereqs": [ "CSCI358", "CSCI406" ],
+        "courseCoreqs": []
+    },
+    {
+        "courseCode": "CSCI470",
+        "courseTitle": "INTRODUCTION TO MACHINE LEARNING",
+        "courseCredits": "3.0",
+        "courseTerms": "I",
+        "coursePrereqs": [ "CSCI200", "MATH201", "MATH332" ],
+        "courseCoreqs": []
+    },
+    {
+        "courseCode": "CSCI471",
+        "courseTitle": "COMPUTER NETWORKS I",
+        "courseCredits": "3.0",
+        "courseTerms": "",
+        "coursePrereqs": [ "CSCI220", "CSCI210" ],
+        "courseCoreqs": []
+    },
+    {
+        "courseCode": "CSCI473",
+        "courseTitle": "ROBOT PROGRAMMING AND PERCEPTION",
+        "courseCredits": "3.0",
+        "courseTerms": "",
+        "coursePrereqs": [ "CSCI220", "MATH201" ],
+        "courseCoreqs": []
+    },
+    {
+        "courseCode": "CSCI474",
+        "courseTitle": "INTRODUCTION TO CRYPTOGRAPHY",
+        "courseCredits": "3.0",
+        "courseTerms": "II",
+        "coursePrereqs": [ "CSCI220", "CSCI358", "MATH334" ],
+        "courseCoreqs": []
+    },
+    {
+        "courseCode": "CSCI475",
+        "courseTitle": "INFORMATION SECURITY AND PRIVACY",
+        "courseCredits": "3.0",
+        "courseTerms": "I",
+        "coursePrereqs": [ "CSCI220", "CSCI341", "CSCI274" ],
+        "courseCoreqs": []
+    },
+    {
+        "courseCode": "CSCI477",
+        "courseTitle": "ELEMENTS OF GAMES AND GAME DEVELOPMENT",
+        "courseCredits": "3.0",
+        "courseTerms": "",
+        "coursePrereqs": [ "CSCI220" ],
+        "courseCoreqs": []
+    },
+    {
+        "courseCode": "CSCI478",
+        "courseTitle": "INTRODUCTION TO BIOINFORMATICS",
+        "courseCredits": "3.0",
+        "courseTerms": "",
+        "coursePrereqs": [ "CSCI128" ],
+        "courseCoreqs": []
+    },
+    {
+        "courseCode": "CSCI480",
+        "courseTitle": "COMPUTER SCIENCE HONORS THESIS",
+        "courseCredits": "3.0",
+        "courseTerms": "I, II",
+        "coursePrereqs": [ "CSCI306" ],
+        "courseCoreqs": []
+    },
+    {
+        "courseCode": "CSCI490",
+        "courseTitle": "PROGRAMMING CHALLENGES III",
+        "courseCredits": "1.0",
+        "courseTerms": "",
+        "coursePrereqs": [ "CSCI390" ],
+        "courseCoreqs": [ "CSCI406" ]
+    },
+    {
+        "courseCode": "CSCI498",
+        "courseTitle": "SPECIAL TOPICS",
+        "courseCredits": "1.0",
+        "courseTerms": "I, II",
+        "coursePrereqs": [],
+        "courseCoreqs": []
+    },
+    {
+        "courseCode": "CSCI499",
+        "courseTitle": "INDEPENDENT STUDY",
+        "courseCredits": "1.0",
+        "courseTerms": "I, II",
+        "coursePrereqs": [],
+        "courseCoreqs": []
+    },
+    {
+        "courseCode": "PHGN100",
+        "courseTitle": "PHYSICS I - MECHANICS",
+        "courseCredits": "4.0",
+        "courseTerms": "I,II",
+        "coursePrereqs": [ "MATH111" ],
+        "courseCoreqs": [ "MATH112" ]
+    },
+    {
+        "courseCode": "PHGN198",
+        "courseTitle": "SPECIAL TOPICS",
+        "courseCredits": "1.0",
+        "courseTerms": "",
+        "coursePrereqs": [],
+        "courseCoreqs": []
+    },
+    {
+        "courseCode": "PHGN199",
+        "courseTitle": "INDEPENDENT STUDY",
+        "courseCredits": "1.0",
+        "courseTerms": "",
+        "coursePrereqs": [],
+        "courseCoreqs": []
+    },
+    {
+        "courseCode": "PHGN200",
+        "courseTitle": "PHYSICS II-ELECTROMAGNETISM AND OPTICS",
+        "courseCredits": "4.0",
+        "courseTerms": "I, II",
+        "coursePrereqs": [ "PHGN100" ],
+        "courseCoreqs": [ "MATH213" ]
+    },
+    {
+        "courseCode": "PHGN215",
+        "courseTitle": "ANALOG ELECTRONICS",
+        "courseCredits": "4.0",
+        "courseTerms": "II",
+        "coursePrereqs": [ "PHGN200" ],
+        "courseCoreqs": []
+    },
+    {
+        "courseCode": "PHGN298",
+        "courseTitle": "SPECIAL TOPICS",
+        "courseCredits": "1.0",
+        "courseTerms": "",
+        "coursePrereqs": [],
+        "courseCoreqs": []
+    },
+    {
+        "courseCode": "PHGN299",
+        "courseTitle": "INDEPENDENT STUDY",
+        "courseCredits": "1.0",
+        "courseTerms": "",
+        "coursePrereqs": [],
+        "courseCoreqs": []
+    },
+    {
+        "courseCode": "PHGN300",
+        "courseTitle": "PHYSICS III-MODERN PHYSICS I",
+        "courseCredits": "3.0",
+        "courseTerms": "I",
+        "coursePrereqs": [ "PHGN200" ],
+        "courseCoreqs": [ "MATH225" ]
+    },
+    {
+        "courseCode": "PHGN311",
+        "courseTitle": "INTRODUCTION TO MATHEMATICAL PHYSICS",
+        "courseCredits": "3.0",
+        "courseTerms": "I",
+        "coursePrereqs": [ "PHGN300", "MATH225", "MATH332", "CSCI250" ],
+        "courseCoreqs": []
+    },
+    {
+        "courseCode": "PHGN315",
+        "courseTitle": "ADVANCED PHYSICS LAB I",
+        "courseCredits": "2.0",
+        "courseTerms": "I",
+        "coursePrereqs": [ "PHGN300", "PHGN384" ],
+        "courseCoreqs": []
+    },
+    {
+        "courseCode": "PHGN317",
+        "courseTitle": "SEMICONDUCTOR CIRCUITS- DIGITAL",
+        "courseCredits": "3.0",
+        "courseTerms": "I",
+        "coursePrereqs": [ "PHGN215", "CSCI250" ],
+        "courseCoreqs": []
+    },
+    {
+        "courseCode": "PHGN320",
+        "courseTitle": "MODERN PHYSICS II: BASICS OF QUANTUM MECHANICS",
+        "courseCredits": "4.0",
+        "courseTerms": "II",
+        "coursePrereqs": [ "MATH332" ],
+        "courseCoreqs": []
+    },
+    {
+        "courseCode": "PHGN324",
+        "courseTitle": "INTRODUCTION TO ASTRONOMY AND ASTROPHYSICS",
+        "courseCredits": "3.0",
+        "courseTerms": "I",
+        "coursePrereqs": [ "PHGN200" ],
+        "courseCoreqs": []
+    },
+    {
+        "courseCode": "PHGN326",
+        "courseTitle": "ADVANCED PHYSICS LAB II",
+        "courseCredits": "2.0",
+        "courseTerms": "II",
+        "coursePrereqs": [ "PHGN315" ],
+        "courseCoreqs": []
+    },
+    {
+        "courseCode": "PHGN340",
+        "courseTitle": "COOPERATIVE EDUCATION",
+        "courseCredits": "1.0",
+        "courseTerms": "I,II",
+        "coursePrereqs": [],
+        "courseCoreqs": []
+    },
+    {
+        "courseCode": "PHGN341",
+        "courseTitle": "THERMAL PHYSICS",
+        "courseCredits": "3.0",
+        "courseTerms": "II",
+        "coursePrereqs": [ "CHGN122", "PHGN311" ],
+        "courseCoreqs": []
+    },
+    {
+        "courseCode": "PHGN350",
+        "courseTitle": "INTERMEDIATE MECHANICS",
+        "courseCredits": "4.0",
+        "courseTerms": "I",
+        "coursePrereqs": [ "PHGN200" ],
+        "courseCoreqs": [ "PHGN311" ]
+    },
+    {
+        "courseCode": "PHGN361",
+        "courseTitle": "INTERMEDIATE ELECTROMAGNETISM",
+        "courseCredits": "3.0",
+        "courseTerms": "II",
+        "coursePrereqs": [ "PHGN200", "PHGN311" ],
+        "courseCoreqs": []
+    },
+    {
+        "courseCode": "PHGN384",
+        "courseTitle": "FIELD SESSION TECHNIQUES IN PHYSICS",
+        "courseCredits": "1.0",
+        "courseTerms": "",
+        "coursePrereqs": [ "PHGN300", "PHGN215", "CSCI250" ],
+        "courseCoreqs": []
+    },
+    {
+        "courseCode": "PHGN398",
+        "courseTitle": "SPECIAL TOPICS",
+        "courseCredits": "1.0",
+        "courseTerms": "",
+        "coursePrereqs": [],
+        "courseCoreqs": []
+    },
+    {
+        "courseCode": "PHGN399",
+        "courseTitle": "INDEPENDENT STUDY",
+        "courseCredits": "1.0",
+        "courseTerms": "",
+        "coursePrereqs": [],
+        "courseCoreqs": []
+    },
+    {
+        "courseCode": "PHGN401",
+        "courseTitle": "PHYSICS SEMINAR",
+        "courseCredits": "1.0",
+        "courseTerms": "",
+        "coursePrereqs": [],
+        "courseCoreqs": [ "PHGN300" ]
+    },
+    {
+        "courseCode": "PHGN417",
+        "courseTitle": "FUNDAMENTALS OF QUANTUM INFORMATION",
+        "courseCredits": "3.0",
+        "courseTerms": "",
+        "coursePrereqs": [ "MATH332" ],
+        "courseCoreqs": []
+    },
+    {
+        "courseCode": "PHGN418",
+        "courseTitle": "GENERAL RELATIVITY",
+        "courseCredits": "3.0",
+        "courseTerms": "II",
+        "coursePrereqs": [ "PHGN350" ],
+        "courseCoreqs": []
+    },
+    {
+        "courseCode": "PHGN419",
+        "courseTitle": "PRINCIPLES OF SOLAR ENERGY SYSTEMS",
+        "courseCredits": "3.0",
+        "courseTerms": "",
+        "coursePrereqs": [ "PHGN200", "MATH225" ],
+        "courseCoreqs": []
+    },
+    {
+        "courseCode": "PHGN422",
+        "courseTitle": "NUCLEAR PHYSICS",
+        "courseCredits": "3.0",
+        "courseTerms": "",
+        "coursePrereqs": [ "PHGN300" ],
+        "courseCoreqs": []
+    },
+    {
+        "courseCode": "PHGN423",
+        "courseTitle": "PARTICLE PHYSICS",
+        "courseCredits": "3.0",
+        "courseTerms": "II",
+        "coursePrereqs": [ "PHGN350" ],
+        "courseCoreqs": [ "PHGN320" ]
+    },
+    {
+        "courseCode": "PHGN424",
+        "courseTitle": "ASTROPHYSICS",
+        "courseCredits": "3.0",
+        "courseTerms": "II",
+        "coursePrereqs": [ "PHGN300" ],
+        "courseCoreqs": []
+    },
+    {
+        "courseCode": "PHGN433",
+        "courseTitle": "BIOPHYSICS",
+        "courseCredits": "3.0",
+        "courseTerms": "II",
+        "coursePrereqs": [ "CBEN110" ],
+        "courseCoreqs": []
+    },
+    {
+        "courseCode": "PHGN435",
+        "courseTitle": "INTERDISCIPLINARY MICROELECTRONICS PROCESSING LABORATORY",
+        "courseCredits": "3.0",
+        "courseTerms": "",
+        "coursePrereqs": [ "MATH213" ],
+        "courseCoreqs": []
+    },
+    {
+        "courseCode": "PHGN440",
+        "courseTitle": "SOLID STATE PHYSICS",
+        "courseCredits": "3.0",
+        "courseTerms": "",
+        "coursePrereqs": [ "PHGN320" ],
+        "courseCoreqs": []
+    },
+    {
+        "courseCode": "PHGN441",
+        "courseTitle": "SOLID STATE PHYSICS APPLICATIONS AND PHENOMENA",
+        "courseCredits": "3.0",
+        "courseTerms": "",
+        "coursePrereqs": [ "PHGN440" ],
+        "courseCoreqs": []
+    },
+    {
+        "courseCode": "PHGN450",
+        "courseTitle": "COMPUTATIONAL PHYSICS",
+        "courseCredits": "3.0",
+        "courseTerms": "",
+        "coursePrereqs": [ "PHGN311" ],
+        "courseCoreqs": []
+    },
+    {
+        "courseCode": "PHGN461",
+        "courseTitle": "ELEMENTS OF MODERN OPTICS",
+        "courseCredits": "3.0",
+        "courseTerms": "",
+        "coursePrereqs": [ "PHGN311" ],
+        "courseCoreqs": []
+    },
+    {
+        "courseCode": "PHGN462",
+        "courseTitle": "ELECTROMAGNETIC WAVES AND OPTICAL PHYSICS",
+        "courseCredits": "3.0",
+        "courseTerms": "I",
+        "coursePrereqs": [ "PHGN361" ],
+        "courseCoreqs": []
+    },
+    {
+        "courseCode": "PHGN466",
+        "courseTitle": "MODERN OPTICAL ENGINEERING",
+        "courseCredits": "3.0",
+        "courseTerms": "",
+        "coursePrereqs": [],
+        "courseCoreqs": []
+    },
+    {
+        "courseCode": "PHGN471",
+        "courseTitle": "SENIOR DESIGN PRINCIPLES I",
+        "courseCredits": "0.5",
+        "courseTerms": "I",
+        "coursePrereqs": [ "PHGN384", "PHGN326" ],
+        "courseCoreqs": [ "PHGN481" ]
+    },
+    {
+        "courseCode": "PHGN472",
+        "courseTitle": "SENIOR DESIGN PRINCIPLES II",
+        "courseCredits": "0.5",
+        "courseTerms": "II",
+        "coursePrereqs": [ "PHGN384", "PHGN326" ],
+        "courseCoreqs": [ "PHGN482" ]
+    },
+    {
+        "courseCode": "PHGN480",
+        "courseTitle": "LASER PHYSICS",
+        "courseCredits": "3.0",
+        "courseTerms": "I",
+        "coursePrereqs": [ "PHGN320" ],
+        "courseCoreqs": []
+    },
+    {
+        "courseCode": "PHGN481",
+        "courseTitle": "SENIOR DESIGN PRACTICE",
+        "courseCredits": "2.5",
+        "courseTerms": "I",
+        "coursePrereqs": [ "PHGN384", "PHGN326"],
+        "courseCoreqs": [ "PHGN471" ]
+    },
+    {
+        "courseCode": "PHGN482",
+        "courseTitle": "SENIOR DESIGN PRACTICE",
+        "courseCredits": "2.5",
+        "courseTerms": "II",
+        "coursePrereqs": [ "PHGN481", "PHGN384", "PHGN326" ],
+        "courseCoreqs": [ "PHGN472" ]
+    },
+    {
+        "courseCode": "PHGN491",
+        "courseTitle": "HONORS SENIOR DESIGN PRACTICE",
+        "courseCredits": "2.5",
+        "courseTerms": "I",
+        "coursePrereqs": [ "PHGN384", "PHGN326"],
+        "courseCoreqs": [ "PHGN471" ]
+    },
+    {
+        "courseCode": "PHGN492",
+        "courseTitle": "HONORS SENIOR DESIGN PRACTICE",
+        "courseCredits": "2.5",
+        "courseTerms": "II",
+        "coursePrereqs": [ "PHGN481" ],
+        "courseCoreqs": [ "PHGN472" ]
+    },
+    {
+        "courseCode": "PHGN498",
+        "courseTitle": "SPECIAL TOPICS",
+        "courseCredits": "1.0",
+        "courseTerms": "",
+        "coursePrereqs": [],
+        "courseCoreqs": []
+    },
+    {
+        "courseCode": "PHGN499",
+        "courseTitle": "INDEPENDENT STUDY",
+        "courseCredits": "1.0",
+        "courseTerms": "",
+        "coursePrereqs": [],
+        "courseCoreqs": []
+    },
+    {
+        "courseCode": "CHGN111",
+        "courseTitle": "INTRODUCTORY CHEMISTRY",
+        "courseCredits": "3.0",
+        "courseTerms": "S",
+        "coursePrereqs": [],
+        "courseCoreqs": []
+    },
+    {
+        "courseCode": "CHGN121",
+        "courseTitle": "PRINCIPLES OF CHEMISTRY I",
+        "courseCredits": "4.0",
+        "courseTerms": "",
+        "coursePrereqs": [],
+        "courseCoreqs": []
+    },
+    {
+        "courseCode": "CHGN122",
+        "courseTitle": "PRINCIPLES OF CHEMISTRY II (SC1)",
+        "courseCredits": "4.0",
+        "courseTerms": "I, II, S",
+        "coursePrereqs": [
+            "CHGN121"
+        ],
+        "courseCoreqs": []
+    },
+    {
+        "courseCode": "CHGN125",
+        "courseTitle": "MOLECULAR ENGINEERING & MATERIALS CHEMISTRY",
+        "courseCredits": "4.0",
+        "courseTerms": "I,II",
+        "coursePrereqs": [
+            "CHGN121"
+        ],
+        "courseCoreqs": []
+    },
+    {
+        "courseCode": "CHGN198",
+        "courseTitle": "SPECIAL TOPICS",
+        "courseCredits": "1.0",
+        "courseTerms": "I, II",
+        "coursePrereqs": [],
+        "courseCoreqs": []
+    },
+    {
+        "courseCode": "CHGN199",
+        "courseTitle": "INDEPENDENT STUDY",
+        "courseCredits": "1.0",
+        "courseTerms": "I, II",
+        "coursePrereqs": [],
+        "courseCoreqs": []
+    },
+    {
+        "courseCode": "CHGN209",
+        "courseTitle": "INTRODUCTION TO CHEMICAL THERMODYNAMICS",
+        "courseCredits": "3.0",
+        "courseTerms": "I, II, S",
+        "coursePrereqs": [ "CHGN121", "MATH111", "MATH112", "PHGN100" ],
+        "courseCoreqs": []
+    },
+    {
+        "courseCode": "CHGN221",
+        "courseTitle": "ORGANIC CHEMISTRY I",
+        "courseCredits": "3.0",
+        "courseTerms": "I",
+        "coursePrereqs": [ "CHGN122" ],
+        "courseCoreqs": []
+    },
+    {
+        "courseCode": "CHGN222",
+        "courseTitle": "ORGANIC CHEMISTRY II",
+        "courseCredits": "3.0",
+        "courseTerms": "II, S",
+        "coursePrereqs": [ "CHGN221" ],
+        "courseCoreqs": []
+    },
+    {
+        "courseCode": "CHGN223",
+        "courseTitle": "ORGANIC CHEMISTRY I LABORATORY",
+        "courseCredits": "1.0",
+        "courseTerms": "II",
+        "coursePrereqs": [ "CHGN221" ],
+        "courseCoreqs": []
+    },
+    {
+        "courseCode": "CHGN224",
+        "courseTitle": "ORGANIC CHEMISTRY II LABORATORY",
+        "courseCredits": "1.0",
+        "courseTerms": "",
+        "coursePrereqs": [],
+        "courseCoreqs": []
+    },
+    {
+        "courseCode": "CHGN298",
+        "courseTitle": "SPECIAL TOPICS",
+        "courseCredits": "1.0",
+        "courseTerms": "",
+        "coursePrereqs": [],
+        "courseCoreqs": []
+    },
+    {
+        "courseCode": "CHGN299",
+        "courseTitle": "INDEPENDENT STUDY",
+        "courseCredits": "1.0",
+        "courseTerms": "",
+        "coursePrereqs": [],
+        "courseCoreqs": []
+    },
+    {
+        "courseCode": "CHGN311",
+        "courseTitle": "INTRODUCTION TO NANOSCIENCE AND NANOTECHNOLOGY",
+        "courseCredits": "3.0",
+        "courseTerms": "II",
+        "coursePrereqs": [ "CHGN121" ],
+        "courseCoreqs": []
+    },
+    {
+        "courseCode": "CHGN323",
+        "courseTitle": "QUALITATIVE ORGANIC ANALYSIS AND APPLIED SPECTROSCOPY",
+        "courseCredits": "2.0",
+        "courseTerms": "II",
+        "coursePrereqs": [ "CHGN222", "CHGN224" ],
+        "courseCoreqs": []
+    },
+    {
+        "courseCode": "CHGN335",
+        "courseTitle": "INSTRUMENTAL ANALYSIS",
+        "courseCredits": "3.0",
+        "courseTerms": "",
+        "coursePrereqs": [ "CHGN122" ],
+        "courseCoreqs": []
+    },
+    {
+        "courseCode": "CHGN336",
+        "courseTitle": "ANALYTICAL CHEMISTRY",
+        "courseCredits": "3.0",
+        "courseTerms": "",
+        "coursePrereqs": [ "CHGN221" ],
+        "courseCoreqs": []
+    },
+    {
+        "courseCode": "CHGN337",
+        "courseTitle": "ANALYTICAL CHEMISTRY LABORATORY",
+        "courseCredits": "1.0",
+        "courseTerms": "",
+        "coursePrereqs": [ "CHGN221" ],
+        "courseCoreqs": []
+    },
+    {
+        "courseCode": "CHGN340",
+        "courseTitle": "COOPERATIVE EDUCATION",
+        "courseCredits": "3.0",
+        "courseTerms": "I, II, S",
+        "coursePrereqs": [],
+        "courseCoreqs": []
+    },
+    {
+        "courseCode": "CHGN341",
+        "courseTitle": "INORGANIC CHEMISTRY I",
+        "courseCredits": "3.0",
+        "courseTerms": "I",
+        "coursePrereqs": [ "CHGN222", "CHGN209" ],
+        "courseCoreqs": []
+    },
+    {
+        "courseCode": "CHGN351",
+        "courseTitle": "PHYSICAL CHEMISTRY: A MOLECULAR PERSPECTIVE I",
+        "courseCredits": "4.0",
+        "courseTerms": "",
+        "coursePrereqs": [ "MATH225", "PHGN200", "CHGN209" ],
+        "courseCoreqs": []
+    },
+    {
+        "courseCode": "CHGN353",
+        "courseTitle": "PHYSICAL CHEMISTRY: A MOLECULAR PERSPECTIVE II",
+        "courseCredits": "4.0",
+        "courseTerms": "II",
+        "coursePrereqs": [ "CHGN351" ],
+        "courseCoreqs": []
+    },
+    {
+        "courseCode": "CHGN395",
+        "courseTitle": "INTRODUCTION TO UNDERGRADUATE RESEARCH",
+        "courseCredits": "1.0",
+        "courseTerms": "I",
+        "coursePrereqs": [],
+        "courseCoreqs": []
+    },
+    {
+        "courseCode": "CHGN396",
+        "courseTitle": "INTRODUCTION TO UNDERGRADUATE RESEARCH",
+        "courseCredits": "1.0",
+        "courseTerms": "I,II",
+        "coursePrereqs": [],
+        "courseCoreqs": []
+    },
+    {
+        "courseCode": "CHGN398",
+        "courseTitle": "SPECIAL TOPICS",
+        "courseCredits": "1.0",
+        "courseTerms": "I,II",
+        "coursePrereqs": [],
+        "courseCoreqs": []
+    },
+    {
+        "courseCode": "CHGN399",
+        "courseTitle": "INDEPENDENT STUDY",
+        "courseCredits": "1.0",
+        "courseTerms": "I,II",
+        "coursePrereqs": [],
+        "courseCoreqs": []
+    },
+    {
+        "courseCode": "CHGN401",
+        "courseTitle": "INORGANIC CHEMISTRY II",
+        "courseCredits": "3.0",
+        "courseTerms": "II",
+        "coursePrereqs": [ "CHGN341" ],
+        "courseCoreqs": []
+    },
+    {
+        "courseCode": "CHGN403",
+        "courseTitle": "INTRODUCTION TO ENVIRONMENTAL CHEMISTRY",
+        "courseCredits": "3.0",
+        "courseTerms": "II",
+        "coursePrereqs": [ "CHGN209" ],
+        "courseCoreqs": []
+    },
+    {
+        "courseCode": "CHGN406",
+        "courseTitle": "INTRODUCTION TO GEOCHEMISTRY",
+        "courseCredits": "3.0",
+        "courseTerms": "",
+        "coursePrereqs": [ "CHGN122", "GEGN101" ],
+        "courseCoreqs": []
+    },
+    {
+        "courseCode": "CHGN409",
+        "courseTitle": "BIOLOGICAL INORGANIC CHEMISTRY",
+        "courseCredits": "3.0",
+        "courseTerms": "",
+        "coursePrereqs": [],
+        "courseCoreqs": []
+    },
+    {
+        "courseCode": "CHGN410",
+        "courseTitle": "SURFACE CHEMISTRY",
+        "courseCredits": "3.0",
+        "courseTerms": "",
+        "coursePrereqs": [ "CHGN209" ],
+        "courseCoreqs": []
+    },
+    {
+        "courseCode": "CHGN411",
+        "courseTitle": "APPLIED RADIOCHEMISTRY",
+        "courseCredits": "3.0",
+        "courseTerms": "",
+        "coursePrereqs": [ "CHGN122" ],
+        "courseCoreqs": []
+    },
+    {
+        "courseCode": "CHGN422",
+        "courseTitle": "POLYMER CHEMISTRY LABORATORY",
+        "courseCredits": "1.0",
+        "courseTerms": "",
+        "coursePrereqs": [ "CHGN122", "CHGN223" ],
+        "courseCoreqs": []
+    },
+    {
+        "courseCode": "CHGN423",
+        "courseTitle": "SOLID-STATE CHEMISTRY",
+        "courseCredits": "3.0",
+        "courseTerms": "",
+        "coursePrereqs": [ "CHGN121" ],
+        "courseCoreqs": []
+    },
+    {
+        "courseCode": "CHGN428",
+        "courseTitle": "BIOCHEMISTRY",
+        "courseCredits": "3.0",
+        "courseTerms": "",
+        "coursePrereqs": [],
+        "courseCoreqs": [ "CHGN222" ]
+    },
+    {
+        "courseCode": "CHGN429",
+        "courseTitle": "BIOCHEMISTRY II",
+        "courseCredits": "3.0",
+        "courseTerms": "",
+        "coursePrereqs": [ "CHGN428" ],
+        "courseCoreqs": []
+    },
+    {
+        "courseCode": "CHGN430",
+        "courseTitle": "INTRODUCTION TO POLYMER SCIENCE",
+        "courseCredits": "3.0",
+        "courseTerms": "I",
+        "coursePrereqs": [ "CHGN222" ],
+        "courseCoreqs": []
+    },
+    {
+        "courseCode": "CHGN431",
+        "courseTitle": "INTRODUCTORY BIOCHEMISTRY LABORATORY",
+        "courseCredits": "2.0",
+        "courseTerms": "",
+        "coursePrereqs": [ "CHGN428" ],
+        "courseCoreqs": []
+    },
+    {
+        "courseCode": "CHGN435",
+        "courseTitle": "PHYSICAL BIOCHEMISTRY",
+        "courseCredits": "3.0",
+        "courseTerms": "",
+        "coursePrereqs": [ "CHGN428", "CHGN209" ],
+        "courseCoreqs": []
+    },
+    {
+        "courseCode": "CHGN441",
+        "courseTitle": "THE CHEMISTRY AND BIOCHEMISTRY OF PHARMACEUTICALS",
+        "courseCredits": "3.0",
+        "courseTerms": "",
+        "coursePrereqs": [ "CHGN222", "CHGN428" ],
+        "courseCoreqs": []
+    },
+    {
+        "courseCode": "CHGN445",
+        "courseTitle": "CHEMICAL BIOLOGY",
+        "courseCredits": "3.0",
+        "courseTerms": "",
+        "coursePrereqs": [ "CHGN222", "CHGN428" ],
+        "courseCoreqs": []
+    },
+    {
+        "courseCode": "CHGN462",
+        "courseTitle": "MICROBIOLOGY",
+        "courseCredits": "3.0",
+        "courseTerms": "II",
+        "coursePrereqs": [],
+        "courseCoreqs": []
+    },
+    {
+        "courseCode": "CHGN475",
+        "courseTitle": "COMPUTATIONAL CHEMISTRY",
+        "courseCredits": "3.0",
+        "courseTerms": "II",
+        "coursePrereqs": [ "CHGN351", "CHGN401" ],
+        "courseCoreqs": []
+    },
+    {
+        "courseCode": "CHGN490",
+        "courseTitle": "CHEMISTRY FIELD SESSION",
+        "courseCredits": "6.0",
+        "courseTerms": "S",
+        "coursePrereqs": [ "CHGN323", "CHGN341" ],
+        "courseCoreqs": []
+    },
+    {
+        "courseCode": "CHGN495",
+        "courseTitle": "UNDERGRADUATE RESEARCH",
+        "courseCredits": "1.0",
+        "courseTerms": "S",
+        "coursePrereqs": [],
+        "courseCoreqs": []
+    },
+    {
+        "courseCode": "CHGN497",
+        "courseTitle": "INTERNSHIP",
+        "courseCredits": "1.0",
+        "courseTerms": "I,II,S",
+        "coursePrereqs": [],
+        "courseCoreqs": []
+    },
+    {
+        "courseCode": "CHGN498",
+        "courseTitle": "SPECIAL TOPICS IN CHEMISTRY",
+        "courseCredits": "1.0",
+        "courseTerms": "I,II,S",
+        "coursePrereqs": [],
+        "courseCoreqs": []
+    },
+    {
+        "courseCode": "CHGN499",
+        "courseTitle": "INDEPENDENT STUDY",
+        "courseCredits": "1.0",
+        "courseTerms": "I,II",
+        "coursePrereqs": [],
+        "courseCoreqs": []
+    }
+]
